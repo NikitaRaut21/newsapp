@@ -1,8 +1,8 @@
 .news-article-img{
     height: 250px;
     width: 400px;
+   display: block;
     object-fit: cover;
-    display: block;
     margin: 10px auto;
 }
 .news-article-card{

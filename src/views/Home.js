@@ -27,7 +27,7 @@ function Home() {
     
     return (
     <div>
-        <h1>All articles </h1>
+        <h1>  News App </h1>
         <input type="text" className="search-input" value={searchQuery} onChange={(e)=>setSearchQuery(e.target.value)}/>
 
         <div className="news-container">
