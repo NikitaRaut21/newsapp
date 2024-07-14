@@ -9,7 +9,9 @@ function Home() {
 
     const loadNews = async () => {
         try{
-            const response = await axios.get(`https://newsapi.org/v2/everything?q=${searchQuery}&from=2024-06-13&sortBy=publishedAt&apiKey=${process.env.REACT_APP_API_KEY}`);
+            const response = await axios.get(
+                "https://newsapi.org/v2/everything?q=keyword&apiKey=51a66b41f7494e2a99e7c10b6e6b1f12"
+              );
             setNews(response.data.articles)
         }
         catch(error){
